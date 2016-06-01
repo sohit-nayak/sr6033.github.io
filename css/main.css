@@ -264,8 +264,47 @@ position:absolute;
 font:normal normal normal 17px/1em MuseoSlab900, Trebuchet;
 margin:0;
 padding:10px 0;
-top:199px;
+top:190px;
 left:915px;
+}
+
+h22 {
+color:white;
+position:absolute;
+font:normal normal normal 17px/1em MuseoSlab900, Trebuchet;
+margin:0;
+padding:10px 0;
+top:150px;
+left:45px;
+}
+
+h23 {
+color:white;
+position:absolute;
+font:normal normal normal 17px/1em MuseoSlab900, Trebuchet;
+margin:0;
+padding:10px 0;
+left:15px;
+}
+
+h24 {
+color:white;
+position:absolute;
+font:normal normal normal 17px/1em MuseoSlab900, Trebuchet;
+margin:0;
+padding:10px 0;
+top:67px;
+left:745px;
+}
+
+h25 {
+color:white;
+position:absolute;
+font:normal normal normal 17px/1em MuseoSlab900, Trebuchet;
+margin:0;
+padding:10px 0;
+top:-30px;
+left:0px;
 }
 
 small {
@@ -570,6 +609,36 @@ right:6px;
 top:229px;
 }
 
+#rock-s1-2 {
+display:block;
+position:absolute;
+width:150px;
+height:150px;
+background-position:-150px 0;
+left:6px;
+top:229px;
+}
+
+#rock-s1-3 {
+display:block;
+position:absolute;
+width:150px;
+height:150px;
+background-position:-150px 0;
+left:150px;
+top:107px;
+}
+
+#rock-s1-4 {
+display:block;
+position:absolute;
+width:150px;
+height:150px;
+background-position:-150px 0;
+left:650px;
+top:100px;
+}
+
 #baker-s1-1 {
 display:block;
 position:absolute;
@@ -604,8 +673,8 @@ top:50px;
 position:absolute;
 height:136px;
 width:97px;
-left:420px;
-top:262px;
+left:170px;
+top:40px;
 }
 
 #ani-pixel-s2 {
@@ -939,8 +1008,8 @@ position:absolute;
 width:50px;
 height:80px;
 background-position:0 0;
-top:940px;
-left:253px;
+top:67px;
+left:700px;
 }
 
 #ani-tweet-s5 {
@@ -998,8 +1067,8 @@ position:absolute;
 background-position:0 100%;
 width:74px;
 height:89px;
-left:541px;
-top:617px;
+left:45px;
+top:177px;
 }
 
 #ani-customer-s5 {
@@ -1188,3 +1257,20 @@ position:absolute;
 top:160px;
 }
 
+.nowrap {
+  white-space: nowrap ;
+}
+
+.mail {
+background-repeat:no-repeat;
+background-image:url(../img/mail.png);
+}
+
+#mail {
+position:absolute;
+background-position:0 0;
+height:50px;
+width:70px;
+left:444px;
+top:140px;
+}
