@@ -1,0 +1,30 @@
+/* Tweetable
+------------------------------*/
+
+#tweets {
+	margin:0;
+	padding:5px 0px 0px 0px;
+}
+
+#tweets li {
+	line-height:1.2em;
+	text-align:left;
+	list-style-type:none;
+	color:#707B81;
+	margin:0;
+	padding:0;
+}
+
+#tweets li:last-child {
+	margin:0;
+	padding:0;
+}
+
+#tweets .hash {
+	color:#707B81;
+}
+
+#tweets .reply {
+	color:#707B81;
+}
+

@@ -1,0 +1,141 @@
+/*
+
+	Supersized - Fullscreen Slideshow jQuery Plugin
+	Version : 3.2.5
+	Site	: www.buildinternet.com/project/supersized
+	
+	Author	: Sam Dunn
+	Company : One Mighty Roar (www.onemightyroar.com)
+	License : MIT License / GPL License
+	
+*/
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-image:initial;
+	background-repeat:no-repeat;
+	background-attachment:initial;
+	background-position:initial initial;
+	background-origin:initial;
+	background-clip:initial;
+	height:100%;
+	background-color:#262626;
+}
+
+img {
+}
+
+#supersized-loader {
+	position:absolute;
+	top:50%;
+	left:50%;
+	z-index:0;
+	width:60px;
+	height:60px;
+	text-indent:-999em;
+	background-image:url(../img/progress.gif);
+	background-repeat:no-repeat;
+	background-attachment:initial;
+	background-position:50% 50%;
+	background-origin:initial;
+	background-clip:initial;
+	margin:-30px 0px 0px -30px;
+}
+
+#supersized {
+	display:block;
+	position:fixed;
+	left:0;
+	top:0;
+	overflow:hidden;
+	z-index:-999;
+	height:100%;
+	width:100%;
+}
+
+#supersized img {
+	width:auto;
+	height:auto;
+	position:relative;
+	display:none;
+	outline-style:none;
+	outline-width:initial;
+	outline-color:#000000;
+	border-width:initial;
+	border-top-color:#000000;
+	border-right-color:#000000;
+	border-bottom-color:#000000;
+	border-left-color:#000000;
+	border-style:none;
+}
+
+#supersized.speed img {
+}
+
+/*Speed*/
+
+#supersized.quality img {
+	image-rendering:optimizequality;
+}
+
+/*Quality*/
+
+#supersized li {
+	display:block;
+	list-style-type:none;
+	list-style-position:initial;
+	list-style-image:initial;
+	z-index:-30;
+	position:fixed;
+	overflow:hidden;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-image:initial;
+	background-repeat:no-repeat;
+	background-attachment:initial;
+	background-position:initial initial;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:#262626;
+}
+
+#supersized a {
+	width:100%;
+	height:100%;
+	display:block;
+}
+
+#supersized li.prevslide {
+	z-index:-20;
+}
+
+#supersized li.activeslide {
+	z-index:-10;
+}
+
+#supersized li.image-loading {
+	background-image:url(../img/progress.gif);
+	background-repeat:no-repeat;
+	background-attachment:initial;
+	background-position:50% 50%;
+	background-origin:initial;
+	background-clip:initial;
+	width:100%;
+	height:100%;
+	background-color:#262626;
+}
+
+#supersized li.image-loading img {
+	visibility:hidden;
+}
+
+#supersized li.prevslide img, #supersized li.activeslide img {
+	display:inline;
+}
+
