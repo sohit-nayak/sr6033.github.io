@@ -248,6 +248,26 @@ margin:0;
 padding:10px 0;
 }
 
+h20 {
+color:white;
+position:absolute;
+font:normal normal normal 17px/1em MuseoSlab900, Trebuchet;
+margin:0;
+padding:10px 0;
+top:-8px;
+left:422px;
+}
+
+h21 {
+color:white;
+position:absolute;
+font:normal normal normal 17px/1em MuseoSlab900, Trebuchet;
+margin:0;
+padding:10px 0;
+top:199px;
+left:915px;
+}
+
 small {
 display:block;
 padding-top:10px;
