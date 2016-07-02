@@ -251,6 +251,13 @@ top:100px;
 				text-shadow: rgba(0, 0, 0, 1) 0px 1px 0px;
 				text-align: center;
 			}
+#white{
+color:white;
+}
+
+h100{
+color:white;
+}
 
 h0 {
 font-style:normal;
