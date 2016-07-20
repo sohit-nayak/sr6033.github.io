@@ -152,7 +152,7 @@ margin-right:auto;
 display:block;
 width:400px;
 height:400px;
-top:210px;
+top:200px;
 }
 
 #section1 {
@@ -207,7 +207,7 @@ height:1300px;
 
 #section7 {
 display:block;
-position:absolute;
+position:relative;
 width:100%;
 bottom:0;
 font:normal normal normal 13px/1.16em MuseoSlab500, Trebuchet;
@@ -1301,3 +1301,4 @@ width:70px;
 left:444px;
 top:140px;
 }
+
